@@ -1,0 +1,159 @@
+body {
+  font-family: $proxima;
+  font-size: $fontsize;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  overflow-x: hidden;
+  color: $textcolor;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.3;
+  @include media-breakpoint-up(lg) {
+    font-size: 24px;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .only-desktop {
+    display: none;
+  }
+}
+
+.section {
+  padding-bottom: 50px;
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 80px;
+  }
+}
+
+ul.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    font-size: 28px;
+    font-weight: 300;
+    @include media-breakpoint-up(lg) {
+      font-size: 22px;
+    }
+    .fa-check {
+      color: #0BA91B;
+      font-size: 14px;
+      margin-right: 5px;
+    }
+  }
+}
+
+h2.mb {
+  margin-bottom: 30px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    @include media-breakpoint-up(lg) {
+      align-items: flex-start;
+      margin-left: 30px;
+    }
+    .phone {
+      display: contents;
+    }
+    .jobtime {
+      font-size: 18px;
+      @include media-breakpoint-up(lg) {
+        font-size: .9rem;
+      }
+    }
+  }
+}
+
+.button {
+  color: #fff;
+  background: $accent;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: .8rem;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(60, 153, 238, 0.5);
+  transition-duration: 500ms;
+  margin: 0 auto 30px;
+  &:hover {
+    color: #fff;
+    background: #2973b6;
+    text-decoration: none;
+    box-shadow: 0 8px 30px rgba(60,153,238,.5);
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 1rem;
+    margin: initial;
+  }
+}
+
+.phone {
+  @include media-breakpoint-up(lg) {
+    text-align: right;
+  }
+  a {
+    color: $textcolor;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    &:hover {
+      color: $accent;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.rating-box {
+  position:relative;
+  vertical-align: middle;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  display: inline-block;
+  color: #8e8e8e;
+
+  &:before{
+    content: "\f006 \f006 \f006 \f006 \f006";
+  }
+
+  .rating {
+    position: absolute;
+    left:0;
+    top:0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #FAE425;
+    &:before {
+      content: "\f005 \f005 \f005 \f005 \f005";
+    }
+  }
+}
+
+.burger {
+  float: right;
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}

@@ -1,0 +1,250 @@
+Script started on Fri Oct 30 18:07:19 2020
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hping www.online-mastera.ru                       p  sscripts[?2004l
+zsh: command not found: scripts
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hscripts     s  ggulp[?2004l
+[[90m18:27:00[39m] Using gulpfile [35m~/WebstormProjects/private-master/gulpfile.js[39m
+[[90m18:27:00[39m] Starting '[36mdefault[39m'...
+[[90m18:27:00[39m] Starting '[36mimages[39m'...
+[[90m18:27:00[39m] Starting '[36mstyles[39m'...
+[[90m18:27:00[39m] Starting '[36mscripts[39m'...
+[[90m18:27:00[39m] Starting '[36mbrowsersync[39m'...
+[[90m18:27:00[39m] Starting '[36mstartwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m --------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.0.102:3000[39m
+[90m --------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://localhost:3001[39m
+[90m --------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mapp/[39m
+[[90m18:27:05[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7618:5: Please do not use display: contents; if you have grid setting enabled
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:27:06[39m] Finished '[36mscripts[39m' after [35m6.36 s[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.css[39m)
+[[90m18:27:06[39m] Finished '[36mstyles[39m' after [35m6.41 s[39m
+[[90m18:27:06[39m] gulp-imagemin: Minified 0 images
+[[90m18:27:06[39m] Finished '[36mimages[39m' after [35m6.45 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hgulpscripts[?2004l
+zsh: command not found: scripts
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hggulp scripts[?2004l
+[[90m18:29:57[39m] Using gulpfile [35m~/WebstormProjects/private-master/gulpfile.js[39m
+[[90m18:29:57[39m] Starting '[36mscripts[39m'...
+[[90m18:29:58[39m] Finished '[36mscripts[39m' after [35m1.15 s[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hgulp scripts[12Dscripts     gulp   scriptsgulp scripts[12D            [12Dgulp scripts[12Dscripts     gulp   scriptsgulp   [?2004l
+[[90m18:30:05[39m] Using gulpfile [35m~/WebstormProjects/private-master/gulpfile.js[39m
+[[90m18:30:05[39m] Starting '[36mdefault[39m'...
+[[90m18:30:05[39m] Starting '[36mimages[39m'...
+[[90m18:30:05[39m] Starting '[36mstyles[39m'...
+[[90m18:30:05[39m] Starting '[36mscripts[39m'...
+[[90m18:30:05[39m] Starting '[36mbrowsersync[39m'...
+[[90m18:30:05[39m] Starting '[36mstartwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m --------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.0.102:3000[39m
+[90m --------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://localhost:3001[39m
+[90m --------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mapp/[39m
+[[90m18:30:08[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7618:5: Please do not use display: contents; if you have grid setting enabled
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:30:09[39m] Finished '[36mscripts[39m' after [35m3.9 s[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.css[39m)
+[[90m18:30:09[39m] Finished '[36mstyles[39m' after [35m3.91 s[39m
+[[90m18:30:09[39m] gulp-imagemin: Minified 0 images
+[[90m18:30:09[39m] Finished '[36mimages[39m' after [35m3.98 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hnnpm install izimodal --save[?2004l
+[?25l⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠏ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 1bd0aea8f2268491[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠴ loadIdealTree:loadAllDepsIntoIdealTree: [7msill[0m [35minstall[0m loadIdealTree[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠇ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m izimodal@1.5.1 checking installable status[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠇ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m izimodal@1.5.1 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠙ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m jquery@2.2.4 checking installable status[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠦ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠦ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠋ postinstall: [7msill[0m [35minstall[0m executeActions[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠧ extract:izimodal: [7msill[0m [35mextract[0m izimodal@latest extracted to /Users/user/WebstormProjects/private-master/node_modules/.staging/izimo[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠧ extract:izimodal: [7msill[0m [35mextract[0m izimodal@latest extracted to /Users/user/WebstormProjects/private-master/node_modules/.staging/izimo[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠼ postinstall: [32minfo[0m [35mlifecycle[0m izimodal@1.5.1~postinstall: izimodal@1.5.1[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠧ postinstall: [32minfo[0m [35mlifecycle[0m izimodal@1.5.1~postinstall: izimodal@1.5.1[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m bootstrap@4.5.3 requires a peer of popper.js@^1.16.1 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m optimizedhtml@5.0.0 No repository field.
+[0m
++ izimodal@1.5.1
+added 2 packages from 2 contributors and audited 1047 packages in 7.45s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+found [91m3[0m vulnerabilities (2 [93mmoderate[0m, 1 [91mhigh[0m)
+  run `npm audit fix` to fix them, or `npm audit` for details
+[?25l⸨[7m            [27m[90m░░░░░░[0m⸩ ⠼ postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hnpm install izimodal --save[27Dgulp                       [23D scripts[?2004l
+[[90m18:34:04[39m] Using gulpfile [35m~/WebstormProjects/private-master/gulpfile.js[39m
+[[90m18:34:04[39m] Starting '[36mscripts[39m'...
+[[90m18:34:04[39m] Finished '[36mscripts[39m' after [35m428 ms[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hgulp scripts[12Dnpm install izimodal --save[27Dgulp                       [23D scripts[12Dscripts     gulp scripts       [8D[?2004l
+[[90m18:34:11[39m] Using gulpfile [35m~/WebstormProjects/private-master/gulpfile.js[39m
+[[90m18:34:11[39m] Starting '[36mdefault[39m'...
+[[90m18:34:11[39m] Starting '[36mimages[39m'...
+[[90m18:34:11[39m] Starting '[36mstyles[39m'...
+[[90m18:34:11[39m] Starting '[36mscripts[39m'...
+[[90m18:34:11[39m] Starting '[36mbrowsersync[39m'...
+[[90m18:34:11[39m] Starting '[36mstartwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m --------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.0.102:3000[39m
+[90m --------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://localhost:3001[39m
+[90m --------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mapp/[39m
+[[90m18:34:13[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7618:5: Please do not use display: contents; if you have grid setting enabled
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:34:14[39m] Finished '[36mscripts[39m' after [35m2.6 s[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.css[39m)
+[[90m18:34:14[39m] Finished '[36mstyles[39m' after [35m2.75 s[39m
+[[90m18:34:14[39m] gulp-imagemin: Minified 0 images
+[[90m18:34:14[39m] Finished '[36mimages[39m' after [35m2.76 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hgulp scripts[?2004l
+[[90m18:44:17[39m] Using gulpfile [35m~/WebstormProjects/private-master/gulpfile.js[39m
+[[90m18:44:17[39m] Starting '[36mscripts[39m'...
+[[90m18:44:19[39m] Finished '[36mscripts[39m' after [35m1.38 s[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hgulp scripts       [8D[?2004l
+[[90m18:44:22[39m] Using gulpfile [35m~/WebstormProjects/private-master/gulpfile.js[39m
+[[90m18:44:22[39m] Starting '[36mdefault[39m'...
+[[90m18:44:22[39m] Starting '[36mimages[39m'...
+[[90m18:44:22[39m] Starting '[36mstyles[39m'...
+[[90m18:44:22[39m] Starting '[36mscripts[39m'...
+[[90m18:44:22[39m] Starting '[36mbrowsersync[39m'...
+[[90m18:44:22[39m] Starting '[36mstartwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m --------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.0.102:3000[39m
+[90m --------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://localhost:3001[39m
+[90m --------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mapp/[39m
+[[90m18:44:25[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7618:5: Please do not use display: contents; if you have grid setting enabled
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:44:26[39m] Finished '[36mscripts[39m' after [35m3.36 s[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.css[39m)
+[[90m18:44:26[39m] Finished '[36mstyles[39m' after [35m3.39 s[39m
+[[90m18:44:26[39m] gulp-imagemin: Minified 0 images
+[[90m18:44:26[39m] Finished '[36mimages[39m' after [35m3.45 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m18:45:44[39m] Starting '[36mscripts[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:45:46[39m] Finished '[36mscripts[39m' after [35m1.85 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m18:52:32[39m] Starting '[36mscripts[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:52:34[39m] Finished '[36mscripts[39m' after [35m1.67 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m18:54:43[39m] Starting '[36mscripts[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:54:45[39m] Finished '[36mscripts[39m' after [35m2.1 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m18:57:39[39m] Starting '[36mscripts[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:57:41[39m] Finished '[36mscripts[39m' after [35m2.38 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m18:59:26[39m] Starting '[36mscripts[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m18:59:28[39m] Finished '[36mscripts[39m' after [35m1.63 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m19:01:25[39m] Starting '[36mstyles[39m'...
+[[90m19:01:25[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7619:5: Please do not use display: contents; if you have grid setting enabled
+[[90m19:01:26[39m] '[36mstyles[39m' [31merrored after[39m [35m1.05 s[39m
+[[90m19:01:26[39m] Error: Ignoring local @import of "node_modules/izimodal/css/iziModal.css" as resource is missing.
+    at formatError (/usr/local/lib/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/format-error.js:21:10)
+    at Gulp.<anonymous> (/usr/local/lib/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/log/events.js:33:15)
+    at Gulp.emit (events.js:322:22)
+    at Gulp.EventEmitter.emit (domain.js:482:12)
+    at Object.error (/Users/user/WebstormProjects/private-master/node_modules/undertaker/lib/helpers/createExtensions.js:61:10)
+    at handler (/Users/user/WebstormProjects/private-master/node_modules/now-and-later/lib/map.js:50:14)
+    at f (/Users/user/WebstormProjects/private-master/node_modules/once/once.js:25:25)
+    at f (/Users/user/WebstormProjects/private-master/node_modules/once/once.js:25:25)
+    at tryCatch (/Users/user/WebstormProjects/private-master/node_modules/async-done/index.js:24:15)
+    at done (/Users/user/WebstormProjects/private-master/node_modules/async-done/index.js:40:12)
+[[90m19:01:42[39m] Starting '[36mstyles[39m'...
+[[90m19:01:43[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7619:5: Please do not use display: contents; if you have grid setting enabled
+[[90m19:01:43[39m] '[36mstyles[39m' [31merrored after[39m [35m926 ms[39m
+[[90m19:01:43[39m] Error: Ignoring local @import of "node_modules/izimodal/css/iziModal.min.css" as resource is missing.
+    at formatError (/usr/local/lib/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/format-error.js:21:10)
+    at Gulp.<anonymous> (/usr/local/lib/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/log/events.js:33:15)
+    at Gulp.emit (events.js:322:22)
+    at Gulp.EventEmitter.emit (domain.js:482:12)
+    at Object.error (/Users/user/WebstormProjects/private-master/node_modules/undertaker/lib/helpers/createExtensions.js:61:10)
+    at handler (/Users/user/WebstormProjects/private-master/node_modules/now-and-later/lib/map.js:50:14)
+    at f (/Users/user/WebstormProjects/private-master/node_modules/once/once.js:25:25)
+    at f (/Users/user/WebstormProjects/private-master/node_modules/once/once.js:25:25)
+    at tryCatch (/Users/user/WebstormProjects/private-master/node_modules/async-done/index.js:24:15)
+    at done (/Users/user/WebstormProjects/private-master/node_modules/async-done/index.js:40:12)
+[[90m19:02:17[39m] Starting '[36mstyles[39m'...
+[[90m19:02:18[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7618:5: Please do not use display: contents; if you have grid setting enabled
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.css[39m)
+[[90m19:02:18[39m] Finished '[36mstyles[39m' after [35m961 ms[39m
+[[90m19:02:24[39m] Starting '[36mstyles[39m'...
+[[90m19:02:25[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7619:5: Please do not use display: contents; if you have grid setting enabled
+[[90m19:02:25[39m] '[36mstyles[39m' [31merrored after[39m [35m823 ms[39m
+[[90m19:02:41[39m] Starting '[36mstyles[39m'...
+[[90m19:02:41[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:8600:5: Please do not use display: contents; if you have grid setting enabled
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.css[39m)
+[[90m19:02:42[39m] Finished '[36mstyles[39m' after [35m1.45 s[39m
+[[90m19:03:14[39m] Starting '[36mstyles[39m'...
+[[90m19:03:14[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7618:5: Please do not use display: contents; if you have grid setting enabled
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.css[39m)
+[[90m19:03:15[39m] Finished '[36mstyles[39m' after [35m1.17 s[39m
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hgulp scripts       [8D scripts[12Dnpm install izimodal --save[27Dgulp                       [23Dnpm install izimodal --save[1C[1C[1C[1C                     i uninstall izimodal[?2004l
+[?25l⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 5f030e2d97eccd47[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠹ loadIdealTree:loadAllDepsIntoIdealTree: [7msill[0m [35minstall[0m loadIdealTree[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:izimodal: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:ms: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:dlv: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:parseurl: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:slash: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:kind-of: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:snapdragon-util: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:stream-exhaust: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:to-regex: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:sver-compat: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:undertaker-registry: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:flush-write-stream: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:through2-concurrent: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:unbzip2-stream: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:p-reduce: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:mimic-fn: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:source-map: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:yargs: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:which: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:har-schema: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠴ loadDep:lodash.keys: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTree[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠋ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠋ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠹ postinstall: [7msill[0m [35minstall[0m executeActions[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠏ remove:izimodal: [7msill[0m [35mdoSerial[0m remove 4[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠦ remove: [7msill[0m [35mremove[0m /Users/user/WebstormProjects/private-master/node_modules/izimodal[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠏ remove: [7msill[0m [35mremove[0m /Users/user/WebstormProjects/private-master/node_modules/izimodal[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m bootstrap@4.5.3 requires a peer of popper.js@^1.16.1 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m optimizedhtml@5.0.0 No repository field.
+[0m
+[?25l⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠸ remove: [30;43mWARN[0m optimizedhtml@5.0.0 No repository field.[0m[K[K[?25hremoved 2 packages and audited 1045 packages in 6.003s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+[?25l⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠦ remove: [32;40mtiming[0m [35maudit body[0m Completed in 2ms[0m[K[K[?25h[1m[7m%[27m[1m[0m                                                                                                                                                           [0m[27m[24m[Juser@Albert-MacBook-Pro private-master % [K[?2004hnpm uninstall izimodal[22Dgulp                  [18D scripts       [8D scripts[12Dnpm install izimodal --save[27Dgulp                       [23D scripts[12Dscripts     gulp   scriptsping www.online-mastera.ru                       p  ggulp[?2004l
+[[90m19:23:36[39m] Using gulpfile [35m~/WebstormProjects/private-master/gulpfile.js[39m
+[[90m19:23:36[39m] Starting '[36mdefault[39m'...
+[[90m19:23:36[39m] Starting '[36mimages[39m'...
+[[90m19:23:36[39m] Starting '[36mstyles[39m'...
+[[90m19:23:36[39m] Starting '[36mscripts[39m'...
+[[90m19:23:36[39m] Starting '[36mbrowsersync[39m'...
+[[90m19:23:36[39m] Starting '[36mstartwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m --------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.0.102:3000[39m
+[90m --------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://localhost:3001[39m
+[90m --------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mapp/[39m
+[[90m19:23:39[39m] gulp-autoprefixer: 
+  autoprefixer: /Users/user/WebstormProjects/private-master/app/scss/app.min.css:7618:5: Please do not use display: contents; if you have grid setting enabled
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.js[39m)
+[[90m19:23:41[39m] Finished '[36mscripts[39m' after [35m4.47 s[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mapp.min.css[39m)
+[[90m19:23:41[39m] Finished '[36mstyles[39m' after [35m4.51 s[39m
+[[90m19:23:41[39m] gulp-imagemin: Minified 0 images
+[[90m19:23:41[39m] Finished '[36mimages[39m' after [35m4.55 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m

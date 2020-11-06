@@ -1,0 +1,68 @@
+// USER VARIABLES SECTION
+
+$accent: #3388D7; // Accent Color
+$fontsize: 24px; // Body Font Size
+$textcolor: #000; // Text Color
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
+$proxima: Proxima Nova, sans-serif; // Roboto Font Family
+$fa-font-path: '../assets/webfonts';
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 20px;
+$gutter: $grid-gutter-width;
+
+// IMPORT SECTION
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap/scss/bootstrap-reboot.scss'; // Bootstrap Reboot collection
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss'; // Bootstrap Breakpoints mixin
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+@import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
+@import 'node_modules/slick-carousel/slick/slick.scss';
+//@import 'node_modules/slick-carousel/slick/slick-theme.scss';
+
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		// font-display: swap; // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format('woff2');
+	}
+}
+
+@include font('Proxima Nova', lighter, 100, '../fonts/ProximaNova-Light.woff2');
+@include font('Proxima Nova', 200, 200, '../fonts/ProximaNova-Thin.woff2');
+@include font('Proxima Nova', normal, 400, '../fonts/ProximaNova-Regular.woff2');
+@include font('Proxima Nova', 600, 600, '../fonts/ProximaNova-Semibold.woff2');
+@include font('Proxima Nova', bold, 700, '../fonts/ProximaNova-Bold.woff2');
+@include font('Proxima Nova', 800, 800, '../fonts/ProximaNova-Extrabld.woff2');
+@include font('Proxima Nova', bolder, 900, '../fonts/ProximaNova-Black.woff2');
+
+// GENERAL DOCUMENT STYLES
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	background-color: $accent;
+	color: #fff;
+}
+
+input, textarea {
+	outline: none;
+	&:focus:required:invalid { border-color: red }
+	&:required:valid { border-color: green }
+}
+
+@media (min-width: 1200px) {
+	.container{
+		max-width: 1200px;
+	}
+}

@@ -1,0 +1,70 @@
+.slider {
+  padding: 60px 0;
+
+  p {
+    margin-bottom: 50px;
+  }
+
+  .slick-slider {
+    margin: 0 auto;
+    max-width: 1264px;
+
+    .slick-slide {
+      padding: 0 9px;
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 68px;
+    cursor: pointer;
+    text-indent: -9999px;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(-90deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .5) 34.81%, hsla(0, 0%, 100%, .75) 60.77%, hsla(0, 0%, 100%, .9) 83.43%, #fff);
+
+    &:hover:before {
+      background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTUuMjUiIGZpbGw9IiNmZmYiIHN0cm9rZT0iIzMzODhENyIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNOCAxNWExIDEgMCAxIDAgMCAydi0yem0xNi43MDcgMS43MDdhMSAxIDAgMCAwIDAtMS40MTRsLTYuMzY0LTYuMzY0YTEgMSAwIDAgMC0xLjQxNCAxLjQxNEwyMi41ODYgMTZsLTUuNjU3IDUuNjU3YTEgMSAwIDAgMCAxLjQxNCAxLjQxNGw2LjM2NC02LjM2NHpNOCAxN2gxNnYtMkg4djJ6IiBmaWxsPSIjMzM4OEQ3Ii8+PC9zdmc+);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 32px;
+      height: 32px;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTUiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI0ExOTlBQSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTggMTVhMSAxIDAgMSAwIDAgMnYtMnptMTYuNzA3IDEuNzA3YTEgMSAwIDAgMCAwLTEuNDE0bC02LjM2NC02LjM2NGExIDEgMCAwIDAtMS40MTQgMS40MTRMMjIuNTg2IDE2bC01LjY1NyA1LjY1N2ExIDEgMCAwIDAgMS40MTQgMS40MTRsNi4zNjQtNi4zNjR6TTggMTdoMTZ2LTJIOHYyeiIgZmlsbD0iI0ExOTlBQSIvPjwvc3ZnPg==);
+      background-repeat: no-repeat;
+    }
+
+    &.slick-prev {
+      left: 0;
+
+      &:before {
+        left: 0;
+        background-position: 0;
+        transform: translateY(-50%) rotate(180deg);
+      }
+    }
+
+    &.slick-next {
+      right: 0;
+      width: 48px;
+      background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .5) 34.81%, hsla(0, 0%, 100%, .75) 60.77%, hsla(0, 0%, 100%, .9) 83.43%, #fff);
+
+      &:before {
+        right: 0;
+        background-position: 100%;
+      }
+    }
+  }
+}

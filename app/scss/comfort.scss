@@ -1,0 +1,48 @@
+.comfort {
+  .title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.2;
+
+    .fas, .far {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+  }
+
+  .articles {
+    display: flex;
+    margin: 40px 0 50px;
+    flex-direction: column;
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+    }
+
+    .article {
+      background: #F6FBFF;
+      padding: 30px 70px;
+      margin-right: 30px;
+      border-radius: 1rem;
+      @include media-breakpoint-up(lg) {
+        width: 50%;
+      }
+
+      .title {
+        color: $accent;
+        position: relative;
+
+        &.wrench:before {
+          content: "\f0ad";
+        }
+
+        &:before {
+          font-family: 'Font Awesome 5 Free';
+          font-weight: 900;
+          content: "\f017";
+          position: absolute;
+          left: -40px;
+        }
+      }
+    }
+  }
+}

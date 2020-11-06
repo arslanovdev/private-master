@@ -1,0 +1,75 @@
+.how-works {
+    padding: 50px 0;
+    background: #F6FBFF;
+    @include media-breakpoint-up(lg) {
+        padding: 80px 0;
+        background: url(../images/src/app_demo.png) no-repeat right bottom, #F6FBFF;
+        background-size: 1150px auto;
+    }
+
+    .rating {
+        font-size: 20px;
+        @include media-breakpoint-up(lg) {
+            font-size: 18px;
+            margin-left: 20px;
+        }
+    }
+    .stages {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        .stage {
+            width: 50%;
+            &:nth-child(odd):after {
+                content: ' ';
+                display: block;
+                width: 75px;
+                height: 7px;
+                background: url(../images/src/arrow.svg);
+                background-size: 100% 100%;
+                position: relative;
+                bottom: 60%;
+                right: -80%;
+            }
+            @include media-breakpoint-up(lg) {
+                &:nth-child(odd):after {
+                    content: ' ';
+                    display: block;
+                    width: 75px;
+                    height: 7px;
+                    background: url(../images/src/arrow.svg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    bottom: 70%;
+                    right: -50%;
+                }
+            }
+            .counter {
+                width: 60px;
+                height: 60px;
+                padding: 5px 0;
+                color: #fff;
+                text-align: center;
+                border-radius: 2rem;
+                background: $accent;
+                font-size: 32px;
+                font-weight: 800;
+                margin: 0 auto 10px;
+                @include media-breakpoint-up(lg) {
+                    margin: 0 0 10px;
+                }
+                &:hover {
+                    background: #256caf;
+                }
+            }
+            .name {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.4;
+                @include media-breakpoint-down(lg) {
+                    padding: 0 25px;
+                }
+            }
+        }
+    }
+}

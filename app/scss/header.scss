@@ -1,0 +1,76 @@
+.header {
+  padding: 15px 0;
+  @include media-breakpoint-up(lg) {
+    padding: 25px 0;
+  }
+  .logo img {
+    width: 230px;
+  }
+  @keyframes showNav {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .links {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    opacity: 0;
+    display: none;
+    justify-content: flex-end;
+    .city {
+      margin-right: auto!important;
+      font-weight: 400;
+      position: relative;
+      &:after {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content: "\f078";
+        font-size: .7rem;
+        position: absolute;
+        top: 3px;
+        margin-left: .8rem;
+        color: $accent;
+      }
+    }
+    &.active {
+      display: flex;
+      box-shadow: 0 20px 20px -30px grey;
+      animation: showNav 1s ease-in-out both;
+      opacity: 1;
+    }
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      font-size: 1rem;
+      opacity: 1;
+      flex-direction: row;
+      align-self: center;
+      padding-top: 0;
+      padding-bottom: 0;
+      opacity: 1;
+    }
+    a {
+      color: $textcolor;
+      border-bottom: 1px solid $textcolor;
+      display: inline-block;
+      line-height: .95;
+      font-weight: 300;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+        @include media-breakpoint-up(lg) {
+          margin-bottom: 0;
+        }
+      }
+      &:hover {
+        text-decoration: none;
+        color: $accent;
+        border-bottom: 1px solid $accent;
+      }
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
+    }
+  }
+
+}
